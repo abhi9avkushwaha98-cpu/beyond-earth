@@ -373,7 +373,6 @@
 <input type="radio" name="q10"value="Brightness">Brightness<br>
 <br>
 <br>
-<h4>Please answer all the questions</h4>
 <button onclick="checkanswer()"  type="submit Quiz">Submit</button>
 <br>
 <script>
@@ -433,6 +432,26 @@ if (answer10.value=="Distance")
   alert("your score is" + score +"out of 10")
   }
 
+</script>
+<br><br>
+<div class="feedback" style="color: white;">
+   <h2>give your valuable feedback</h2>
+<textarea id="feedback"
+   placeholder="write your valuable feedbacks"></textarea>
+    <button onclick="Submitfeedback()">Submit</button>
+<p id="feedbackmessege"></p>
+</div>
+<script>
+function Submitfeedback() {
+   let feedback = document.getElementById("feedback").value;
+   if(feedback==""){
+      document.getElementById("feedbackmessege").innerText = "please write something first!";
+   } else {
+          document.getElementById("feedbackmessege").innerText = "thankyou for your feedback";
+
+ document.getElementById("feedback").value="";
+   }
+ }
 </script>
 <br><br><br><br><br>
 <h1 style="height: 40px; width: 160px; margin-left: 300px; background-color: greenyellow">             <u>THE END!</u></h1>

@@ -30,6 +30,16 @@ a{
 a [href="#blackhole"]:hover
 a [href="#quiz"]:hover
 }
-h4{
-    color: white;
+.feedback {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.feedback textarea{
+    width: 300px;
+height: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+.feedback button{
+    padding: 8px 20px;
 }
