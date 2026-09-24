@@ -1,3 +1,35 @@
 html {
     scroll-behavior:smooth;
 }
+body {
+    background-color:#181818;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+pre{
+    color: white;
+}
+body { 
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a{
+    a [href="#planets"]:hover
+a [href="#blackhole"]:hover
+a [href="#quiz"]:hover
+}
+h4{
+    color: white;
+}
